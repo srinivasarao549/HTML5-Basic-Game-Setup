@@ -1,0 +1,27 @@
+body {  
+    margin:0px;  
+    padding:0px;  
+    text-align:center;  
+    background-color: #749588;
+  }  
+  
+  #game {
+  	width: 400px;
+  	height: 600px;
+  	top: 100px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: relative; 
+	z-index: 1; 
+  }
+  
+  #game canvas{  
+    outline:0;  
+    border:1px solid #000;  
+    margin-left: auto;  
+    margin-right: auto; 
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  } 

@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# 2012-01-23:v0.1
+
+# Explicitly cached entries
+index.html
+css/style.css
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+/ /offline.html
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+images/logo.png

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html manifest="game.manifest">
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, mobile" title="main" charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <title>Game Framework</title>
+</head>
+
+<body>
+
+<div id="game">
+		<canvas id='canvas' style="display: none;"></canvas>
+    	<div id="splashScreen">
+    		<img src="images/SplashScreen.png" alt="WorDrop Splash Screen" width="400px" height="600px" />
+    	</div>
+</div>
+
+<script>
+    $("#splashScreen").click(function () {
+        $("#SplashScreen").hide();
+        $("#canvas").show();
+    });
+</script>
+
+<script type="text/javascript" src="js/gameloop.js"></script>
+</body>
+</html>
